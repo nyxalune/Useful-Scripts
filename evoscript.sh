@@ -11,11 +11,7 @@ repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 #Lets sync our trees too!
 
 git clone https://github.com/nyxalune/device_nothing_Spacewar.git
- -b bka device/nothing/Spacewar && git clone https://github.com/nyxalune/kernel_nothing_sm7325.git
- kernel/nothing/sm7325 && https://github.com/nyxalune/vendor_nothing_Spacewar.git
--b bka vendor/nothing/Spacewar && git clone https://github.com/nyxalune/hardware_nothing.git
- hardware/nothing && git clone https://github.com/nyxalune/hardware_dolby.git
- -b sony hardware/dolby && echo Islem Tamam
+ -b bka device/nothing/Spacewar && echo Islem Tamam
 
 #Now for my final trick, lets build.
 
